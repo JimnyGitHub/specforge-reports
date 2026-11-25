@@ -1,0 +1,96 @@
+{
+  "schemaVersion" : 1,
+  "feature" : "billing.feature",
+  "sourceSha256" : "c145eefa982c43ad71fa37bcdea32731d93d21788f4f8f1a183e509edd986dd6",
+  "planSha256" : "ab1b22fcfe3f1b9cf15c2ed99506fb638a2e5997a25b527f2abdf254fbfa13b5",
+  "provenance" : "STATIC_AND_HISTORICAL_NOT_LIVE",
+  "acceptance" : "NOT_ATTESTED",
+  "staticExplanation" : "STATIC PLAN EXPLANATION (not discovery evidence)\nFeature: billing.feature\nScenario 0: [redacted]\n  Step 0 [WHEN] [redacted]\n    Click testId [redacted]\n  Step 1 [THEN] [redacted]\n    Assert exact text: role status equals [redacted]\n",
+  "operations" : [ {
+    "address" : {
+      "scenario" : 0,
+      "step" : 0,
+      "operation" : 0
+    },
+    "historicalEvidence" : "NOT_AVAILABLE"
+  }, {
+    "address" : {
+      "scenario" : 0,
+      "step" : 1,
+      "operation" : 0
+    },
+    "historicalEvidence" : "NOT_AVAILABLE"
+  } ],
+  "history" : [ {
+    "relation" : "STALE_PLAN",
+    "recordedAt" : "2026-11-25T13:56:15.812267172Z",
+    "link" : {
+      "feature" : "billing.feature",
+      "sourceSha256" : "c145eefa982c43ad71fa37bcdea32731d93d21788f4f8f1a183e509edd986dd6",
+      "planSha256" : "758a63ed42b1d287453e22d56fd2a1daa069ccd0758b1e2370b8d027af8c84aa",
+      "address" : {
+        "scenario" : 0,
+        "step" : 0,
+        "operation" : 0
+      }
+    },
+    "evidence" : {
+      "status" : "FOUND",
+      "candidates" : [ {
+        "strategy" : "testId",
+        "scopeDepth" : 0,
+        "intersectionCount" : 0,
+        "origin" : "AUTOMATIC",
+        "matches" : 1,
+        "outcome" : "MATCH",
+        "score" : 100,
+        "selected" : true
+      }, {
+        "strategy" : "role",
+        "scopeDepth" : 0,
+        "intersectionCount" : 0,
+        "origin" : "AUTOMATIC",
+        "matches" : 2,
+        "outcome" : "AMBIGUOUS",
+        "score" : 90,
+        "selected" : false
+      }, {
+        "strategy" : "text",
+        "scopeDepth" : 0,
+        "intersectionCount" : 0,
+        "origin" : "AUTOMATIC",
+        "matches" : 2,
+        "outcome" : "AMBIGUOUS",
+        "score" : 40,
+        "selected" : false
+      }, {
+        "strategy" : "id",
+        "scopeDepth" : 0,
+        "intersectionCount" : 0,
+        "origin" : "AUTOMATIC",
+        "matches" : 1,
+        "outcome" : "UNSTABLE_ID",
+        "score" : 70,
+        "selected" : false
+      }, {
+        "strategy" : "testId",
+        "scopeDepth" : 0,
+        "intersectionCount" : 0,
+        "origin" : "HUMAN_HINT",
+        "matches" : 1,
+        "outcome" : "WRONG_ELEMENT",
+        "score" : 100,
+        "selected" : false
+      }, {
+        "strategy" : "role",
+        "scopeDepth" : 0,
+        "intersectionCount" : 1,
+        "origin" : "AUTOMATIC",
+        "matches" : 2,
+        "outcome" : "AMBIGUOUS",
+        "score" : 35,
+        "selected" : false
+      } ]
+    }
+  } ]
+}

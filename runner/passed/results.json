@@ -1,0 +1,40 @@
+{
+  "schemaVersion" : 1,
+  "passed" : true,
+  "infrastructureCode" : null,
+  "scenarios" : [ {
+    "feature" : "check.feature",
+    "ordinal" : 0,
+    "status" : "PASSED",
+    "operations" : [ {
+      "stepOrdinal" : 0,
+      "operationOrdinal" : 0,
+      "type" : "navigate",
+      "status" : "PASSED",
+      "code" : null,
+      "durationMs" : 167
+    }, {
+      "stepOrdinal" : 1,
+      "operationOrdinal" : 0,
+      "type" : "click",
+      "status" : "PASSED",
+      "code" : null,
+      "durationMs" : 58
+    }, {
+      "stepOrdinal" : 1,
+      "operationOrdinal" : 1,
+      "type" : "assertText",
+      "status" : "PASSED",
+      "code" : null,
+      "durationMs" : 192
+    }, {
+      "stepOrdinal" : 2,
+      "operationOrdinal" : 0,
+      "type" : "assertCount",
+      "status" : "PASSED",
+      "code" : null,
+      "durationMs" : 11
+    } ],
+    "code" : null
+  } ]
+}
