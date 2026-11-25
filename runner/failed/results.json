@@ -12,28 +12,28 @@
       "type" : "navigate",
       "status" : "PASSED",
       "code" : null,
-      "durationMs" : 48
+      "durationMs" : 38
     }, {
       "stepOrdinal" : 1,
       "operationOrdinal" : 0,
       "type" : "click",
       "status" : "PASSED",
       "code" : null,
-      "durationMs" : 69
+      "durationMs" : 59
     }, {
       "stepOrdinal" : 1,
       "operationOrdinal" : 1,
       "type" : "assertText",
       "status" : "PASSED",
       "code" : null,
-      "durationMs" : 189
+      "durationMs" : 188
     }, {
       "stepOrdinal" : 2,
       "operationOrdinal" : 0,
       "type" : "assertCount",
       "status" : "FAILED",
       "code" : "ASSERTION_MISMATCH",
-      "durationMs" : 1505
+      "durationMs" : 1507
     } ],
     "code" : null
   } ]
