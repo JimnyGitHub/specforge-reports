@@ -12,7 +12,7 @@
       "type" : "navigate",
       "status" : "PASSED",
       "code" : null,
-      "durationMs" : 27
+      "durationMs" : 26
     }, {
       "stepOrdinal" : 1,
       "operationOrdinal" : 0,
@@ -26,14 +26,14 @@
       "type" : "assertText",
       "status" : "PASSED",
       "code" : null,
-      "durationMs" : 183
+      "durationMs" : 180
     }, {
       "stepOrdinal" : 2,
       "operationOrdinal" : 0,
       "type" : "assertCount",
       "status" : "FAILED",
       "code" : "ASSERTION_MISMATCH",
-      "durationMs" : 1504
+      "durationMs" : 1505
     } ],
     "code" : null
   } ]
