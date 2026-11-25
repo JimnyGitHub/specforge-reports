@@ -7,23 +7,23 @@
   "acceptance" : "NOT_ATTESTED",
   "staticExplanation" : "STATIC PLAN EXPLANATION (not discovery evidence)\nFeature: billing.feature\nScenario 0: [redacted]\n  Step 0 [WHEN] [redacted]\n    Click testId [redacted]\n  Step 1 [THEN] [redacted]\n    Assert exact text: role status equals [redacted]\n",
   "operations" : [ {
-    "historicalEvidence" : "AVAILABLE",
     "address" : {
       "scenario" : 0,
       "step" : 0,
       "operation" : 0
-    }
+    },
+    "historicalEvidence" : "AVAILABLE"
   }, {
-    "historicalEvidence" : "NOT_AVAILABLE",
     "address" : {
       "scenario" : 0,
       "step" : 1,
       "operation" : 0
-    }
+    },
+    "historicalEvidence" : "NOT_AVAILABLE"
   } ],
   "history" : [ {
     "relation" : "MATCHING_PLAN",
-    "recordedAt" : "2026-11-25T14:11:20.192248975Z",
+    "recordedAt" : "2026-11-25T14:20:45.033322522Z",
     "link" : {
       "feature" : "billing.feature",
       "sourceSha256" : "c145eefa982c43ad71fa37bcdea32731d93d21788f4f8f1a183e509edd986dd6",
