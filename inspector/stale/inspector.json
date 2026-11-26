@@ -23,7 +23,7 @@
   } ],
   "history" : [ {
     "relation" : "STALE_PLAN",
-    "recordedAt" : "2026-11-26T15:12:21.988736063Z",
+    "recordedAt" : "2026-11-26T15:31:26.688579517Z",
     "link" : {
       "feature" : "billing.feature",
       "sourceSha256" : "c145eefa982c43ad71fa37bcdea32731d93d21788f4f8f1a183e509edd986dd6",
