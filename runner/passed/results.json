@@ -12,14 +12,14 @@
       "type" : "navigate",
       "status" : "PASSED",
       "code" : null,
-      "durationMs" : 126
+      "durationMs" : 198
     }, {
       "stepOrdinal" : 1,
       "operationOrdinal" : 0,
       "type" : "click",
       "status" : "PASSED",
       "code" : null,
-      "durationMs" : 59
+      "durationMs" : 61
     }, {
       "stepOrdinal" : 1,
       "operationOrdinal" : 1,
@@ -33,7 +33,7 @@
       "type" : "assertCount",
       "status" : "PASSED",
       "code" : null,
-      "durationMs" : 9
+      "durationMs" : 10
     } ],
     "code" : null
   } ]
